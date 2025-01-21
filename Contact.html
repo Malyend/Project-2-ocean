@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+        <meta charset="UTF-8">
+        <meta name="Author" content="Malyend">
+        <meta name="Description" content="A website about the Ocean">
+        <meta name="Keyword" content="Ocean, Sea, SeaLife">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/Ocean.Css" type="Text/css">
+    </head>
+    <body>
+        
+        <!--Navigation Section-->
+        <nav>
+            <ul>
+                <li><a href="/Index.html">Home</a></li>
+                <li><a href="/SeaLife.Html">SeaLife</a></li>
+                <li><a href="/About.html">About</a></li>
+                <li><a href="/Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!--Contact Form-->
+        <form id="contact-form" action="/Contact.html" method="post">
+            <div class="form-group">
+                <label for="name">Full Name: </label>
+                <input type="text" id="name" name="name" required minlength="2">
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address: </label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone"> Phone Number: </label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{10}">
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject: </label>
+                <select id="subject" name="subject">
+                    <option value="">Please select a subject</option>
+                    <option value="general"> General Inquiry</option>
+                    <option value="support">Technical Support</option>
+                    <option value="billing">Billing Question</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="message">Message: </label>
+                <textarea id="message" name="message" rows="5" required minlength="10"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="newsletter">
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    Subscribe to out newsletter
+                </label>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </body>
+</html>

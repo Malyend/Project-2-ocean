@@ -1,0 +1,2 @@
+Hello everyone, I realized how inefficient having a different CSS for each page was, so here is another project.
+Enjoy!
