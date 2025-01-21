@@ -1,2 +1,4 @@
 Hello everyone, I realized how inefficient having a different CSS for each page was, so here is another project.
 Enjoy!
+
+I am experiementing with Css Grids, Flexbox along with other functions of HTML like Forms.
